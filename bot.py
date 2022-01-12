@@ -3,8 +3,8 @@ from flask import Flask
 
 
 def send_msg(text):
-   token = "your_token"
-   chat_id = "your_chatId"
+   token = "1883871949:AAHU-dHbSvQhalGIHTebf1x19llaqqK133o"
+   chat_id = "614135975"
    url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + text 
    results = requests.get(url_req)
    print(results.json())
