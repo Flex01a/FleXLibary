@@ -6,7 +6,7 @@ if (function_exists('fastcgi_finish_request')) {
 fastcgi_finish_request();
 }
 ob_start();
-$API_KEY = "1883871949:AAEYciJpEjDi5i4Vd2pRMM2EvG-7XPB1sOA";
+$API_KEY = "1883871949:AAHU-dHbSvQhalGIHTebf1x19llaqqK133o";
 define('API_KEY',$API_KEY);
 define('IDBot', explode(":", API_KEY)[0]);
 echo file_get_contents("https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']);
