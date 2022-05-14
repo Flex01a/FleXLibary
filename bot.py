@@ -1,5 +1,4 @@
 import requests
-from flask import Flask
 
 def send_msg(text,toke,chatid):
    token = toke
@@ -18,7 +17,4 @@ s3 = input(" Message : ")
 
 
 
-send_msg(s3,s1,s3)
-
-if __name__ == "__main__":
-    app.run("0.0.0.0", 8519)
+send_msg(s3,s1,s2)
