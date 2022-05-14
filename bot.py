@@ -1,5 +1,15 @@
 import requests
 
+print("""
+
+ ▀█▀ █▀▀ █░░ █▀▀ █▀▄ ▄▀▄ ▀█▀
+ ░█░ █▀▀ █░▄ █▀▀ █▀█ █░█ ░█░
+ ░▀░ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀░ ░▀░ ░▀░
+
+
+""")
+
+
 def send_msg(text,toke,chatid):
    token = toke
    chat_id = chatid
